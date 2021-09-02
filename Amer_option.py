@@ -5,7 +5,7 @@ from QuantLib import *
 valuation_date = Date(22, 8, 2018)
 Settings.instance().evaluationDate = valuation_date+2
 
-calendar = Canada()
+calendar = Brazil()
 volatility = 42.66/100
 day_count = Actual365Fixed()
 
